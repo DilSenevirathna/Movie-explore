@@ -12,12 +12,12 @@ const SearchBar = ({ onSearch, searchResults = [], onSelect }) => {
 
   const debouncedSearch = useCallback(
     debounce((term) => {
-    if (onSearch) {
-    onSearch(term);
-    }
+      if (onSearch) {
+        onSearch(term);
+      }
     }, 500),
-    []
-    );
+    [onSearch]
+  );
 
   useEffect(() => {
     debouncedSearch(searchTerm);
@@ -120,3 +120,4 @@ const SearchBar = ({ onSearch, searchResults = [], onSelect }) => {
 };
 
 export default SearchBar;
+
