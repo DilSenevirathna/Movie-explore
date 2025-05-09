@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[cache]
+  # Cache node_modules to speed up builds and avoid missing dependencies
+  paths = [
+    "node_modules",
+    "build"
+  ]
