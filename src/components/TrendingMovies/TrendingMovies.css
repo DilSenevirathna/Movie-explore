@@ -1,0 +1,13 @@
+.trending-movies {
+  padding: 1rem;
+}
+
+.trending-movies h2 {
+  margin-bottom: 1rem;
+}
+
+.trending-movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}

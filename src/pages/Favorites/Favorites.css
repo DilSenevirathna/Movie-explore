@@ -1,0 +1,10 @@
+.favorites-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    margin-top: 20px;
+  }
