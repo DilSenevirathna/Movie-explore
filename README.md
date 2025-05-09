@@ -14,7 +14,8 @@ loging credential :
 
 ## Deployed Application Screen Recording
 
-link : https://www.loom.com/share/77147cb23e5c433ca69683e9fa33dfc3
+Web View : https://www.loom.com/share/77147cb23e5c433ca69683e9fa33dfc3
+mobile responsive View : https://www.loom.com/share/25733aeb80e34a68aad164b34c168594?sid=3d526cf1-398a-4f0a-97ce-11e741eca211
 
 ## Features
 
