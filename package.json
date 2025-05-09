@@ -18,15 +18,13 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.5.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,9 +49,12 @@
   },
   "homepage": "https://DilSenevirathna.github.io/Movie-explore",
   "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
-
 
 }

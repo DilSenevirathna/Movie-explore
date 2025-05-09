@@ -17,7 +17,7 @@ import {
   IconButton,
 } from '@mui/material';
 import { Favorite, FavoriteBorder, Star, ArrowBack } from '@mui/icons-material';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   fetchMovieDetailsStart,
@@ -26,7 +26,7 @@ import {
   addToFavorites,
   removeFromFavorites,
 } from '../../store/slices/movieSlice';
-import { fetchMovieDetails, fetchMovieCredits, getPosterUrl, getBackdropUrl } from '../../api/tmdb';
+import { fetchMovieDetails, fetchMovieCredits, getPosterUrl } from '../../api/tmdb';
 import './MovieDetails.css';
 
 const MovieDetails = ({ movieId }) => {
