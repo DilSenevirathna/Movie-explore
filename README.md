@@ -1,4 +1,46 @@
-<<<<<<< HEAD
+# Movie Explorer
+
+This is a React-based movie explorer application that allows users to search for movies, view movie details, and manage their favorite movies.
+
+## Deployed Application
+
+The application is deployed and accessible at:
+
+https://dilsenevirathna.github.io/Movie-explore/  - click home to visit site
+
+loging credential :
+ user name : user1
+ password  : password1
+
+## Deployed Application Screen Recording
+
+link : https://www.loom.com/share/77147cb23e5c433ca69683e9fa33dfc3
+
+## Features
+
+- Search for movies with live search suggestions.
+- View detailed information about movies including cast, director, and trailers.
+- Add or remove movies from favorites.
+- Responsive and user-friendly UI built with Material-UI.
+
+## Installation
+
+To run the project locally:
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
+
+## Build and Deployment
+
+- The project uses `react-scripts` for building and deploying.
+- The deployment is configured to GitHub Pages and Netlify.
+
+
+_________________________________________________________________________
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
